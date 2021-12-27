@@ -1,15 +1,12 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/gohugoio/hugoThemes#themetoml for an example
-
-name = "Infinity Hugo"
+name = "Restaurant Hugo"
 license = "MIT"
-licenselink = "https://github.com/themefisher/infinity-hugo/blob/master/LICENSE"
-description = "Hugo port of the Themefisher’s Infinity Template"
-homepage = "https://gethugothemes.com/products/infinity/"
-demosite = "https://demo.gethugothemes.com/infinity/"
-tags = ['comming-soon', 'landing-page', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap4', 'gethugothemes']
-features = ['bootstrap4','responsive']
-min_version = "0.64.0"
+licenselink = "https://github.com/themefisher/restaurant-hugo/blob/master/LICENSE"
+description = "Hugo port of the Themefisher’s restaurant Template"
+homepage = "https://gethugothemes.com/products/restaurant/"
+demosite = "https://demo.gethugothemes.com/restaurant/"
+tags = ['landing-page', 'fast', 'light', 'white', 'modern', 'business', 'agency-template', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap', 'blog', 'responsive', 'clean', 'simple', 'company', 'projects', 'creative', 'contact-form', 'custom-themes', 'mobile', 'minimalistic', 'gethugothemes']
+features = ['bootstrap','responsive']
+min_version = "0.62.0"
 
 [author]
   name = "Themefisher"

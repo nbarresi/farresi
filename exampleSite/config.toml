@@ -1,139 +1,150 @@
-baseURL = "https://www.example.com"
+######################## default configuration ####################
+baseURL = "https://demo.gethugothemes.com/restaurant/"
 languageCode = "en-us"
-title = "Infinity | Comming Soon Hugo Template By Themefisher"
+title = "Restaurant Hugo"
 theme = "farresi"
-removePathAccents = true
+summaryLength = "10"
+paginate = 4
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+URL = "css/bootstrap.min.css"
+[[params.plugins.css]]
+URL = "css/slick.css"
+[[params.plugins.css]]
+URL = "css/font-awesome.min.css"
+[[params.plugins.css]]
+URL = "css/animate.min.css"
+[[params.plugins.css]]
+URL = "css/venobox.css"
+[[params.plugins.css]]
+URL = "css/main.css"
+[[params.plugins.css]]
+URL = "css/responsive.css"
+
+# JS Plugins
+[[params.plugins.js]]
+URL = "js/jquery.min.js"
+[[params.plugins.js]]
+URL = "js/bootstrap.min.js"
+[[params.plugins.js]]
+URL = "js/slick.min.js"
+[[params.plugins.js]]
+URL = "js/wow.min.js"
+[[params.plugins.js]]
+URL = "js/venobox.min.js"
+[[params.plugins.js]]
+URL = "js/main.js"
+
+############################## navigation ###############################
+
+[[menu.main]]
+name = "Home"
+URL = "hero-area"
+weight = 1
+
+[[menu.main]]
+name = "Dove e quando"
+URL = "about-us"
+weight = 2
+
+[[menu.main]]
+name = "Cosa vedere"
+URL = "blog"
+weight = 3
+
+[[menu_OLD.main]]
+name = "Price"
+URL = "price"
+weight = 4
+
+[[menu_OLD.main]]
+name = "News"
+URL = "subscribe"
+weight = 5
+
+[[menu_OLD.main]]
+name = "Contact Us"
+URL = "contact-us"
+weight = 6
 
 
-
-# HTML before the closing </head>
+#################### default parameters ################################
 [params]
-customHead = ""
-
-# Navigation
-[params.navigation]
 logo = "images/logo.png"
-home = "Home"
-about = "About"
-service = "Services"
-contact = "Contact"
+# meta data
+author = "Themefisher"
+description = "This is meta description"
+# google analitycs ID
+google_analitycs_id = "Your ID"
+# mainSections
+main_sections = ["post"]
+# copyright
+copyright = "Copyright &copy; 2021 Designed by [Themefisher](https://themefisher.com) & Developed by [Gethugothemes](https://gethugothemes.com)"
 
-# Hero Area
-[params.hero]
-enable            = true
-bg                = "images/header-bg.jpg"
-title             = "BRING YOUR PRODUCT TO LIGHT"
-subtitle          = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
-btnText           = "Get Started"
+# Preloader
+[params.preloader]
+enable = false
+preloader = "" # use .png , .svg or .gif format
 
-# counter
-disableCountdown  = false
-countdownYear = "2022"
-countdownMonth = "05"
-countdownDay  = "28"
+################################### Footer ############################
+[params.footer]
+enable = true
+contactInfoTitle = "CONTACT <span>INFO</span> "
+blogTitle = "LATEST <span>BLOG POSTS</span>"
+galleryTitle = "PHOTO <span>STREAM</span>"
+socialTitle = "Follow <span>US</span>"
 
-# About Section
-[params.about]
-enable      = true
-heading     = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a."
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur."
+############################ footer contact item
+[[params.footer.contactItem]]
+title="Telephone"
+icon = "fa fa-phone"
+content = "016742 323313"
 
-[[params.about.sliderItem]]
-image   = "images/about/1.jpg"
-[[params.about.sliderItem]]
-image   = "images/about/2.jpg"
-[[params.about.sliderItem]]
-image   = "images/about/3.jpg"
-[[params.about.sliderItem]]
-image   = "images/about/2.jpg"
+[[params.footer.contactItem]]
+title="Address"
+icon = "fa fa-map-marker"
+content = "2046 Blue Spruce Lane Laurel Canada"
 
+[[params.footer.contactItem]]
+title="E mail"
+icon = "fa fa-envelope"
+content = "rest@gmail.com - rest@mail.ru"
 
-# Service Section
-[params.service]
-enable      = true
-title       = "Find Better Solutions Build Better Products"
-subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et"
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-strategy"
-title   = "Fully Responsive"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay   = "0s"
+######################### footer gallery
+[[params.footer.gallery]]
+image = "images/slider/slider-img-1.jpg"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-circle-compass"
-title   = "Speed Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay   = "0.2s"
+[[params.footer.gallery]]
+image = "images/slider/slider-img-2.jpg"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-anchor2"
-title   = "Tons of Feature"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay   = "0.4s"
+[[params.footer.gallery]]
+image = "images/slider/slider-img-3.jpg"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-globe"
-title   = "Fully SEO Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay   = "0.6s"
+[[params.footer.gallery]]
+image = "images/slider/slider-img-4.jpg"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-strategy"
-title   = "Fully Responsive"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay   = "0.8s"
+[[params.footer.gallery]]
+image = "images/slider/slider-img-1.jpg"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-circle-compass"
-title   = "Speed Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay   = "1s"
+[[params.footer.gallery]]
+image = "images/slider/slider-img-2.jpg"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-anchor2"
-title   = "Tons of Feature"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay   = "1.2s"
+######################## Social Icon 
+[[params.footer.socialLink]]
+icon = "facebook"
+link = "https://fb.com/themefisher"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-globe"
-title   = "Fully SEO Optimized"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay   = "1.5s"
+[[params.footer.socialLink]]
+icon = "twitter"
+link = "https://fb.com/themefisher"
 
+[[params.footer.socialLink]]
+icon = "dribbble"
+link = "https://fb.com/themefisher"
 
-# Call to Action Section
-[params.cta]
-enable      = true
-bg          = "images/call-to-action.jpg"
-title       = "Subscribe to our mailing list"
-subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
-
-[params.contact]
-enable      = true
-title       = "Get In Touch"
-subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
+[[params.footer.socialLink]]
+icon = "instagram"
+link = "https://fb.com/themefisher"

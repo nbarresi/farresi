@@ -1,17 +1,19 @@
-{{ partial "header.html" . }}
-
-{{ partial "preloader.html" . }}
-        
-{{ partial "navigation.html" . }}
+{{ define "main" }}
 
 {{ partial "hero-area.html" . }}
 
+{{- partial "header.html" . -}}
+
+{{ partial "gallery.html" . }}
+
 {{ partial "about.html" . }}
 
-{{ partial "service.html" . }}
+{{ partial "blog.html" . }}
 
-{{ partial "call-to-action.html" . }}
+{{ partial "food-menu.html" . }}
+
+{{ partial "subscription.html" . }}
 
 {{ partial "contact.html" . }}
 
-{{ partial "footer.html" . }}
+{{ end }}
