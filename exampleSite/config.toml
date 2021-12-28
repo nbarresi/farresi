@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/restaurant/"
+baseURL = "https://farresi.it/"
 languageCode = "en-us"
-title = "Restaurant Hugo"
+title = "Matrimoniomonio"
 theme = "farresi"
 summaryLength = "10"
 paginate = 4
