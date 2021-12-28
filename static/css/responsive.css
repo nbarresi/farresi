@@ -160,6 +160,8 @@ px      68    160    252    */
   }
   nav .block .navbar-brand img {
     padding-left: 10px;
+	height: 20px !important;
+
   }
   nav .block .navbar-default {
     margin-top: 10px;
@@ -269,6 +271,8 @@ px      68    160    252    */
   #blog .block .btn-more-info:hover {
     border-radius: 10px;
   }
+ 
+	
   /*--
     price Start
 --*/

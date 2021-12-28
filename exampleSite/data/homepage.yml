@@ -2,7 +2,7 @@
 hero_area:
   enable : true
   bg_image : "images/header.png"
-  overlay : true
+  overlay : false
 
 ################### Gallery ###################
 gallery:
