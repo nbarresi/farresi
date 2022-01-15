@@ -9,14 +9,10 @@ gallery:
   enable : true
   title : "Scilla e ditorni"
   images:
-    - "images/slider/chianalea.jpg"
-    - "images/slider/castello_scilla.jpg"
-    - "images/slider/matrice_scilla.jpg"
-    - "images/slider/altafiumara.jpg"
-    - "images/slider/olivarella.jpg"
-    - "images/slider/castello_scilla.jpg"
-    - "images/slider/matrice_scilla.jpg"
-    - "images/slider/altafiumara.jpg"
+    - "images/slider/chiesa.png"
+    - "images/slider/passeggiata.png"
+    - "images/slider/accoglienza.png"
+    - "images/slider/cena.png"
 
 ################ About #######################
 about:
