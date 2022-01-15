@@ -7,7 +7,7 @@ hero_area:
 ################### Gallery ###################
 gallery:
   enable : true
-  title : "Scilla e ditorni"
+  title : ""
   images:
     - "images/slider/chiesa.png"
     - "images/slider/passeggiata.png"
