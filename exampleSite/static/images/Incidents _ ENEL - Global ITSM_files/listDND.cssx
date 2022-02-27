@@ -1,0 +1,268 @@
+#leftPane, #rightPane {
+min-width: 0;
+}
+
+.slushbucket_list_div .spacer,
+.sortContainer .spacer,
+.slushbucket_list_div .no_records,
+.sortContainer .no_records,
+.slushbucket_list_div .list_actions_left,
+.sortContainer .list_actions_left {
+padding-left: 10px;
+}
+
+.greyout, .planning_grey_out {
+background-color: #CCC;
+filter:alpha(opacity=50); /* IE */
+opacity: 0.5; /* Safari, Opera */
+-moz-opacity:0.50; /* FireFox */
+background-repeat:no-repeat;
+background-position:center;
+position:absolute;
+}
+
+.slushbucket_list_div .list_nav.list_nav_top,
+.sortContainer .list_nav.list_nav_top {
+padding-bottom: 4px;
+border-bottom: 0px;
+}
+
+.slushbucket_list_div .list_div tr.ui11_list_item_selected td.list_decoration_cell img,
+.slushbucket_list_div .list_div tr.ui11_list_item_selected td.list_decoration_cell img.list_hier.button,
+.slushbucket_list_div .list_div tr.ui11_list_item_selected td.list_decoration_cell img.list_popup.list_decoration,
+.sortContainer .list_div tr.ui11_list_item_selected td.list_decoration_cell img,
+.sortContainer .list_div tr.ui11_list_item_selected td.list_decoration_cell img.list_hier.button,
+.sortContainer .list_div tr.ui11_list_item_selected td.list_decoration_cell img.list_popup.list_decoration {
+background: none;
+}
+
+.list_table_target.dndTargetHighlight,
+.dndTargetHighlight .list_table_target {
+background: #FFFFCC;
+}
+
+.dragRow .vt.list_edit_selected_cell {
+background-color: #FFF;
+}
+
+.sortContainer .list_decoration_cell table,
+.slushbucket_list_div .list_decoration_cell table {
+background: none;
+background-color: none;
+}
+
+.scratch_pad_container_cell tr.dndHighlightItem,
+.scratch_pad_container_cell tr.dndHighlightItem td,
+.scratch_pad_container_cell tr.dndHighlightItem td .list_decoration img,
+.scratch_pad_container_cell tr.dndHighlightItem td div,
+.highlight_enabled .scratch_pad_container_cell  tr.dndHighlightItem,
+.highlight_enabled .scratch_pad_container_cell  tr.dndHighlightItem td,
+.highlight_enabled .scratch_pad_container_cell  tr.dndHighlightItem td img,
+.highlight_enabled .scratch_pad_container_cell  tr.dndHighlightItem td div {
+background: #E9EEFF;
+background-color: #E9EEFF;
+}
+
+.dragRow .list_decoration_cell,
+.dragRow .list_decoration_cell.hierarchical,
+.dragRow .dragCell,
+.dragRow .linkDiv,
+.dragRow .list_popup.list_decoration {
+background: white;
+}
+
+.sortContainer tr.list_group,
+.sortContainer tr.list_row,
+.sortContainer tr.list_odd,
+.sortContainer tr.list_even,
+.slushbucket_list_div tr.list_group,
+.slushbucket_list_div tr.list_row,
+.slushbucket_list_div tr.list_odd,
+.slushbucket_list_div tr.list_even {
+cursor: pointer;
+}
+
+tr.disabledDragRow,
+tr.disabledDragRow {
+cursor: default;
+}
+
+
+.slushbucket_list_div .list_edit_cursor_box,
+.sortContainer .list_edit_cursor_box {
+display: none;
+}
+
+.slushbucket_list_div .list_title.no_menu.hierarchical,
+.sortContainer .list_title.no_menu.hierarchical {
+background: #EAF1FB;
+}
+
+.slushbucket_list_div .no_rows_row,
+.slushbucket_list_div .no_records,
+.sortContainer .no_rows_row,
+.sortContainer .no_records {
+background: white;
+}
+
+.slushbucket_list_div .hierarchical .no_rows_row,
+.slushbucket_list_div .hierarchical .no_records,
+.sortContainer .hierarchical .no_rows_row,
+.sortContainer .hierarchical .no_records {
+background: white;
+}
+
+DIV.popup {
+z-index: 5000;
+}
+
+.slushbucket_list_div .selected_action.action_context.inverted,
+.sortContainer .selected_action.action_context.inverted {
+color: #6598d1;
+background: white;
+}
+
+.slushbucket_list_div .list_div_cell_empty,
+.sortContainer .list_div_cell_empty {
+border: 0px;
+}
+
+.sortContainer .dragAllRow,
+.sortContainer .dragAllRow td {
+background: white;
+background-color: white;
+}
+
+.sortContainer .dndTargetHighlight,
+.sortContainer .dndTargetHighlight .dragAllRow,
+.sortContainer .dndTargetHighlight .dragAllRow td,
+.list_div tr.dndTargetHighlight,
+.list_div tr.dndTargetHighlight td,
+.list_div tr.dndTargetHighlight td img,
+.list_div tr.dndTargetHighlight td div,
+.highlight_enabled .list_div tr.dndTargetHighlight,
+.highlight_enabled .list_div tr.dndTargetHighlight td,
+.highlight_enabled .list_div tr.dndTargetHighlight td img,
+.highlight_enabled .list_div tr.dndTargetHighlight td div {
+background: #FFFFCC;
+background-color: #FFFFCC;
+}
+
+.sortContainer .dndTargetHighlight .dragAllRow td div {
+background: white;
+background-color: white;
+}
+
+.sortContainer div.dndTargetHighlight .list_nav.list_nav_top,
+.sortContainer div.dndTargetHighlight img.list_nav,
+.sortContainer div.dndTargetHighlight td.breadcrumb_container,
+.sortContainer div.dndTargetHighlight td.breadcrumb_container table {
+background: #FFFFCC;
+}
+
+.sortContainer div.list_container_cell {
+border: 3px solid white;
+}
+
+.sortContainer div.dndTargetHighlight {
+border: 3px solid #FFFFCC;
+}
+
+.sortContainer .list_even table,
+.sortContainer .list_even table tr,
+.sortContainer .list_even table tr td,
+.sortContainer .list_even .vt.list_edit_selected_cell,
+.slushbucket_list_div .list_even table,
+.slushbucket_list_div .list_even table tr,
+.slushbucket_list_div .list_even table tr td,
+.slushbucket_list_div .list_even .vt.list_edit_selected_cell {
+background-color: #EEE;
+}
+
+.highlight_enabled .list_even table,
+.highlight_enabled .list_even table tr,
+.highlight_enabled .list_even table tr td,
+.highlight_enabled .list_even .vt.list_edit_selected_cell,
+.highlight_enabled .list_odd table,
+.highlight_enabled .list_odd table tr,
+.highlight_enabled .list_odd table tr td,
+.highlight_enabled .list_odd .vt.list_edit_selected_cell {
+background-color: white;
+}
+
+.highlight_enabled .hover table,
+.highlight_enabled .hover table tr,
+.highlight_enabled .hover table tr td,
+.highlight_enabled .hover .vt.list_edit_selected_cell {
+background-color: #EEE;
+}
+
+.dndHighlightItem table,
+.dndHighlightItem table tr,
+.dndHighlightItem table tr td {
+background-color: #E9EEFF;
+}
+
+.sortContainer .list_odd .vt.list_edit_selected_cell,
+.slushbucket_list_div .list_odd .vt.list_edit_selected_cell {
+background-color: #FFF;
+}
+
+.dragRow {
+z-index: 1003;
+}
+
+.dragMulti1 {
+z-index: 1002;
+}
+
+.dragMulti2 {
+z-index: 1001;
+}
+
+.list_div tr.dndHighlightItem,
+.list_div tr.dndHighlightItem td,
+.list_div tr.dndHighlightItem td .list_decoration img,
+.list_div tr.dndHighlightItem td div,
+.list_div tr.dndHighlightItem a.dragCell img.list_decoration,
+.highlight_enabled .list_div tr.dndHighlightItem,
+.highlight_enabled .list_div tr.dndHighlightItem td,
+.highlight_enabled .list_div tr.dndHighlightItem td img,
+.highlight_enabled .list_div tr.dndHighlightItem td div,
+.highlight_enabled .list_div tr.dndHighlightItem table,
+.highlight_enabled .list_div tr.dndHighlightItem table tr,
+.highlight_enabled .list_div tr.dndHighlightItem table tr td,
+.highlight_enabled .list_div tr.dndHighlightItem a.dragCell img.list_decoration {
+background: #E9EEFF;
+background-color: #E9EEFF;
+}
+
+.dragCellDisabled {
+cursor: default;
+opacity: 0.3;
+filter: alpha(opacity=30);
+}
+
+DIV.popup {
+z-index: 5000;
+}
+
+.slushbucket_list_div .list_hide_empty,
+.sortContainer .list_hide_empty {
+display: none;
+}
+
+.slushbucket_list_div .list_row,
+.slushbucket_list_div .list_row td {
+cursor: pointer;
+}
+
+.dragRow td,
+.dragRow .list_row td {
+white-space: nowrap;
+}
+
+.sortContainer .list_row td,
+.slushbucket_list_div .list_row td {
+/* white-space: normal; */
+}
