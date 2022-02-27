@@ -8,12 +8,22 @@
 					<div class="title">
 						<h3>{{ .title | markdownify }}</h3>
 					</div>
-					<div class="gallery-slider">
+					<!-- <div class="gallery-slider">
 						{{ range .images }}
 						<a href="{{ . | absURL }}" class="venobox" data-gall="sliderGallery"><img class="img-responsive"
 								src="{{ . | absURL }}" alt=""></a>
 						{{ end }}
+					</div>-->
+					
+					<div class="gallery-slider">
+						{{ range .images }}
+						<a href="{{ .url }}" target="_blank"><img class="img-responsive"
+								src="{{ .img }}" alt=""></a>
+						{{ end }}
 					</div>
+					
+					<!--<a href="https://g.page/Altafiumara?share" target="_blank"><img class="img-responsive"
+								src="{{ . | absURL }}" alt=""></a>-->
 				</div>
 			</div><!-- .col-md-12 close -->
 		</div><!-- .row close -->

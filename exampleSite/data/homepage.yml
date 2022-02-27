@@ -9,10 +9,12 @@ gallery:
   enable : true
   title : ""
   images:
-    - "images/slider/chiesa.png"
-    - "images/slider/passeggiata.png"
-    - "images/slider/accoglienza.png"
-    - "images/slider/cena.png"
+    - img: "images/slider/chiesa.png" 
+      url: "https://goo.gl/maps/oPjwFgJypZxuKfTZ9"    
+    - img: "images/slider/accoglienza.png" 
+      url: "https://g.page/Altafiumara?share"   
+    - img: "images/slider/cena.png" 
+      url: "https://g.page/Altafiumara?share"
 
 ################ About #######################
 about:

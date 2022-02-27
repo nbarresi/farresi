@@ -10,7 +10,8 @@
                 <h1 class="post-title">{{ .Title }}</h1>
                 <ul class="list-inline mb-50 post-meta">
                     <li class="list-inline-item">{{ .Params.author }}</li>
-                    <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li>
+                    <!--<li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li>-->
+					<li class="list-inline-item"><b>Per approfondire: </b><a href="{{ .Params.linkURL }}" target="_blank">{{ .Params.linkTitle }}</a></li>
                 </ul>
             </div>
             <div class="col-md-8 col-md-offset-2">

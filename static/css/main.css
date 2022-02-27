@@ -356,7 +356,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 }
 
 .post:hover img {
-  transform: scale(1.2) rotate(10deg);
+  transform: scale(1.05) rotate(0deg);
 }
 
 .post-img {
@@ -368,6 +368,7 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   transition: all 0.8s ease-out;
   width: 100%;
   height: auto;
+  max-height: 200px;
   object-fit: cover;
 }
 
@@ -378,7 +379,13 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   text-align: center;
   padding: 20px;
 }
-
+/*--
+@media (max-width : 600px) {
+	.post-summary {
+	  display: block !important;
+	}
+}
+--*/
 .post-content::before {
   content: "";
   position: absolute;

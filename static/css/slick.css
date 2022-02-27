@@ -18,6 +18,12 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+.slick-dots
+{
+	visibility: hidden !important;
+}
+
+
 .slick-list
 {
     position: relative;
