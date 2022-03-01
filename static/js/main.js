@@ -20,13 +20,9 @@ $(document).ready(function () {
 			// end of state change: it can be after some time (async)
 		};
 
-		xhr.open('POST', 'https://api.sendgrid.com/v3/mail/send', true);
-		xhr.setRequestHeader('Content-Type', 'application/json', 'Authorization', 'Bearer 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');
+		xhr.open('POST', 'http://localhost:8888/.netlify/functions/send_mail', true);
+		xhr.setRequestHeader('Content-Type', 'application/json', 'Authorization', 'Bearer Test');
 		xhr.send(JSON.stringify({
-			  personalizations: [{to: [{email: "nbarresi@gmail.com"}]}],
-			  from: {email: "invitati@farresi.it"},
-			  subject: "Sending with SendGrid is Fun",
-			  content: [{type: "text/plain", value: "and easy to do anywhere, even with cURL"}]
 		  }));
 		xhr.send();
 		

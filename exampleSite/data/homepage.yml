@@ -77,7 +77,7 @@ subscription:
 
 ################ Contact #######################
 contact:
-  enable : false
+  enable : true
   title: "Conferma la tua presenza!"
   subtitle: ""
   form_action : "#" #contact form works with formspree.io
