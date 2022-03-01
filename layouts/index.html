@@ -1,8 +1,19 @@
 {{ define "main" }}
 
+{{ $sass := resources.Get "sass/timeline.scss" }}
+{{ if $sass }}
+{{ $style := $sass | resources.ToCSS | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+<script src="https://kit.fontawesome.com/68c5c8667a.js" crossorigin="anonymous"></script>
+
+{{ end }}
+{{ partial "contact.html" . }}
+
 {{ partial "hero-area.html" . }}
 
 {{- partial "header.html" . -}}
+
+{{ partial "timeline.html" . }}
 
 {{ partial "gallery.html" . }}
 
@@ -14,6 +25,5 @@
 
 {{ partial "subscription.html" . }}
 
-{{ partial "contact.html" . }}
 
 {{ end }}

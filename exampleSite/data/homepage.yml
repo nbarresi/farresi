@@ -6,7 +6,7 @@ hero_area:
 
 ################### Gallery ###################
 gallery:
-  enable : true
+  enable : false
   title : ""
   images:
     - img: "images/slider/chiesa.png" 
@@ -16,10 +16,16 @@ gallery:
     - img: "images/slider/cena.png" 
       url: "https://g.page/Altafiumara?share"
 
+
+################### Timeline ###################
+timeline:
+  enable : true
+  title : ""
+
 ################ About #######################
 about:
   enable : true
-  image : "images/dove_quando.png"
+  image : "images/sposi.png"
   title : "28 Maggio 2022"
   description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
   
@@ -72,6 +78,6 @@ subscription:
 ################ Contact #######################
 contact:
   enable : false
-  title: "Let's <span> Contact Us </span>"
-  subtitle: "SIGN UP FOR EMAIL ALERTS"
+  title: "Conferma la tua presenza!"
+  subtitle: ""
   form_action : "#" #contact form works with formspree.io

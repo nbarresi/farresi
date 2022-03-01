@@ -4,7 +4,34 @@ $(window).on('load', function () {
 });
 
 $(document).ready(function () {
+	$('#submitButton').on('click',function(){
+		var xhr = new XMLHttpRequest();
+		// we defined the xhr
 
+		xhr.onreadystatechange = function () {
+			if (this.readyState != 4) return;
+
+			if (this.status == 200) {
+				var data = JSON.parse(this.responseText);
+
+				// we get the returned data
+			}
+
+			// end of state change: it can be after some time (async)
+		};
+
+		xhr.open('POST', 'https://api.sendgrid.com/v3/mail/send', true);
+		xhr.setRequestHeader('Content-Type', 'application/json', 'Authorization', 'Bearer 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');
+		xhr.send(JSON.stringify({
+			  personalizations: [{to: [{email: "nbarresi@gmail.com"}]}],
+			  from: {email: "invitati@farresi.it"},
+			  subject: "Sending with SendGrid is Fun",
+			  content: [{type: "text/plain", value: "and easy to do anywhere, even with cURL"}]
+		  }));
+		xhr.send();
+		
+		
+	});
     // autohiding navbar on mobile devices
     $('.navbar-collapse a').click(function () {
         $(".navbar-collapse").collapse('hide');
