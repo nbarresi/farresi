@@ -312,26 +312,44 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
 /*--
     about-us Start
 --*/
-#about-us {
+#lista-nozze {
   padding: 100px 0px;
   background: #F6F6F6;
 }
 
-#about-us .block {
+#lista-nozze .block {
   text-align: center;
 }
 
-#about-us .block p {
-  color: #959595;
+#lista-nozze .block p {
+  color: #525f7f;
   font-size: 16px;
   line-height: 26px;
   padding: 40px 0px;
 }
 
+.lista_nozze-payment_box {
+	margin-top: 50px;
+}
+
+.lista_nozze-payment_icon {
+    width: 50px;
+	height: 100%;
+	display: flex;
+    float: left;
+}
+
+.lista_nozze-payment_text {
+    width: 400px;
+	margin-top: 10px;
+	margin-left: 120px;
+}
+
+
 /*--
     blog Start
 --*/
-#blog {
+#consigli {
   padding-top: 75px;
   padding-bottom: 100px;
   background-repeat: no-repeat;
@@ -340,12 +358,12 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   position: relative;
 }
 
-#blog .block .heading {
+#consigli .block .heading {
   color: #fff;
   margin-bottom: 40px;
 }
 
-#blog .block .heading_lavanda {
+#consigli .block .heading_lavanda {
   color: #1d1d1d;
   margin-bottom: 40px;
 }

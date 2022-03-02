@@ -21,18 +21,21 @@ gallery:
 timeline:
   enable : true
   title : ""
+  overlay : false
 
-################ About #######################
-about:
+################ Lista nozze #######################
+listanozze:
   enable : true
   image : "images/sposi.png"
   title : "28 Maggio 2022"
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
+  description : "La presenza è gradita, ma il regalo lo è sempre di più!"
+  iban_description : "<ul><li><b>IBAN: </b>IT84K0200809500000420628733</li><li><b>Causale: </b>Matrimonio Maria e Nicola</li><li><b>Intestatario: </b>Nicola Barresi</li></ul>"
+  gofund_description : "Contribuisci al nostro viaggio di nozze con una donazione su <a href=\"https://gofundme.com/f/lista-nozza-di-maria-e-nicola\" target=\"_blank\">GoFundMe</a>"
   
 ################# Blog ######################
 blog:
   enable : true
-  title : "Cosa <span>vedere</span>"
+  title : "Consigli"
   bg_image : "images/blog/blog-bg.jpg"
   overlay : false
 

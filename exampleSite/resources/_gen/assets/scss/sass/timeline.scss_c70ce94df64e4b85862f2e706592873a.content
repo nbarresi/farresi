@@ -27,7 +27,7 @@ h2 {
     margin: 20px 0;
     border-radius: 6px;
     align-self: center;
-    width: 50vw; }
+    width: 48vw; }
     .timeline__event:nth-child(2n + 1) {
       flex-direction: row-reverse; }
       .timeline__event:nth-child(2n + 1) .timeline__event__date {
@@ -39,7 +39,7 @@ h2 {
   0% {
     transform: translateY(0%) scaleY(1); }
   100% {
-    transform: translateY(100%) scaleY(2); } }
+    transform: translateY(200%) scaleY(3.8); } }
       .timeline__event:nth-child(2n + 1) .timeline__event__icon:before {
         content: "";
         width: 2px;
