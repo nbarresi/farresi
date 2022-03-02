@@ -56,8 +56,8 @@ URL = "lista-nozze"
 weight = 3
 
 [[menu.main]]
-name = "Consigli"
-URL = "consigli"
+name = "Curiosità"
+URL = "curiosita"
 weight = 4
 
 [[menu_OLD.main]]
