@@ -5,14 +5,22 @@
 		<div class="row">
 			<div class="col-md-1"></div>
 			<div class="col-md-10">
-				<div class="block">
+				<!--<div class="block">-->
 					<h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">{{ .title | markdownify }}</h1>
 					<h3 class="title wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">{{ .subtitle | markdownify }}</h3>
 					<form action="{{ .form_action }}" method="POST" data-netlify="true" name="conferma">
-						<div class="form-group wow fadeInDown col-md-6" data-wow-duration="500ms" data-wow-delay="600ms">
-							<input type="text" name="name" class="form-control" placeholder="Il tuo nome...">
-						</div>
-						<div class="wrapper form-group wow fadeInDown col-md-6" data-wow-duration="500ms" data-wow-delay="600ms">
+							<div class="form-group wow fadeInDown col-md-6" data-wow-duration="500ms" data-wow-delay="600ms">
+								<input type="text" name="name" class="form-control" placeholder="Il tuo nome...">
+							</div>
+							
+							
+							<div class="form-group wow fadeInDown col-md-6" data-wow-duration="500ms" data-wow-delay="700ms">
+									<input type="text" name="confirmation" class="form-control" placeholder="Ci sarai o ci mancherai?">
+								</div>
+						
+							<!--
+						
+						<div class="wrapper form-group wow fadeInDown row" data-wow-duration="500ms" data-wow-delay="600ms">
 						
 						 <input type="radio" name="confirmation" id="option-yes" class="col-md-6">
 						 <input type="radio" name="confirmation" id="option-no" class="col-md-6">
@@ -25,19 +33,21 @@
 							  <span>Vi mancherò...</span>
 						   </label>
 
-						</div>
+						</div>-->
 						<div class="form-group wow fadeInDown col-md-12" data-wow-duration="500ms" data-wow-delay="800ms">
 							<textarea class="form-control" rows="3" name="message" placeholder="Intolleranze...Stranezze...Pensieri fugaci..."></textarea>
 						</div>
 						
 						<!--<input id="submitButton" type="button" class="btn btn-default wow bounceIn" data-wow-duration="500ms" data-wow-delay="1100ms" content="Invia">-->
-						<button type="submit" value="send" class="btn btn-default wow bounceIn" data-wow-duration="500ms" data-wow-delay="1100ms"
-						role="button" id="submitButton">Invia</button>
+						<div class="form-group wow fadeInDown col-md-12" data-wow-duration="500ms" data-wow-delay="1100ms" width="100%"> 
+							<button type="submit" value="send" class="btn btn-default wow"
+							role="button" id="submitButton">Invia</button>
+						</div>
 						
 	
 					</form>
-				</div>
-			</div><!-- .col-md-12 close -->
+				<!--</div>-->
+			</div><!-- .col-md-10 close -->
 			<div class="col-md-1"></div>
 		</div><!-- .row close -->
 	</div><!-- .container close -->

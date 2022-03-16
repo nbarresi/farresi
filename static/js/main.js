@@ -4,6 +4,8 @@ $(window).on('load', function () {
 });
 
 $(document).ready(function () {
+	
+	
 	$('#submitButton').on('click',function(){
 		var xhr = new XMLHttpRequest();
 		// we defined the xhr

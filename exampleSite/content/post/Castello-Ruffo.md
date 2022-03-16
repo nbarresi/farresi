@@ -1,6 +1,6 @@
 ---
 title: "Castello Ruffo"
-date: 2022-02-27T12:30:01+06:00
+date: 2022-02-25T12:30:01+06:00
 image: images/blog/castello_ruffo.jpg
 description: ""
 linkTitle: "I Castelli"

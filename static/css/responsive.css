@@ -129,6 +129,9 @@ cols    1     2      3
 px      68    160    252    */
 @media only screen and (max-width: 767px) {
 	
+	.timeline__event__description_nomobile {
+	  display: none !important;
+	}
 	
 	.post-summary {
 	  display: none !important;

@@ -169,7 +169,34 @@ h2 {
         animation: fillLeftOdd 2s forwards 1s ease-in-out;
       }
     }
+	&__icon__noanimation {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $colorWhite;
+      padding: $spacing;
+      align-self: center;
+      margin: 0 $spacing;
+      background: $color2;
+      border-radius: $bdrs-icon;
+      width: $circle-size;
+      box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+        0 18px 36px -18px rgba(0, 0, 0, 0.3),
+        0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+      padding: 40px;
+      height: $circle-size;
+      position: relative;
+
+      i {
+        font-size: $icon-size;
+      }
+	  
+    }
     &__description {
+      flex-basis: 60%;
+    }
+	
+    &__description_nomobile {
       flex-basis: 60%;
     }
 
@@ -183,6 +210,7 @@ h2 {
       }
 
       &:nth-child(2n + 1) {
+		.timeline__event__icon__noanimation,
         .timeline__event__icon {
           &:before,
           &:after {
@@ -190,7 +218,7 @@ h2 {
           }
         }
       }
-
+	  .timeline__event__icon__noanimation,
       .timeline__event__icon {
         background: $color3;
         color: $colorWhite;
@@ -216,7 +244,9 @@ h2 {
       }
 
       &:nth-child(2n + 1) {
-        .timeline__event__icon {
+        
+		.timeline__event__icon__noanimation,
+		.timeline__event__icon {
           &:before,
           &:after {
             background: $color6;
@@ -224,7 +254,9 @@ h2 {
         }
       }
 
-      .timeline__event__icon {
+      
+		.timeline__event__icon__noanimation,
+		.timeline__event__icon {
         background: $color6;
         color: $color5;
         &:before,
@@ -239,7 +271,9 @@ h2 {
       }
     }
     &:last-child {
-      .timeline__event__icon {
+      
+		.timeline__event__icon__noanimation,
+		.timeline__event__icon {
         &:before {
           content: none;
         }
@@ -256,6 +290,7 @@ h2 {
       width: 100%;
     }
 
+	&__icon__noanimation,
     &__icon {
       border-radius: $bdrs $bdrs 0 0;
       width: 100%;
@@ -281,6 +316,7 @@ h2 {
         padding: $spacing;
       }
 
+	  .timeline__event__icon__noanimation,
       .timeline__event__icon {
         border-radius: $bdrs $bdrs 0 0;
         margin: 0;

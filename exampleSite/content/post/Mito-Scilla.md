@@ -1,6 +1,6 @@
 ---
 title: "Il mito di Scilla"
-date: 2022-02-27T12:30:01+06:00
+date: 2022-02-26T12:30:01+06:00
 image: images/blog/mito_scilla.jpg
 description: ""
 linkTitle: "Turismo ReggioCal"

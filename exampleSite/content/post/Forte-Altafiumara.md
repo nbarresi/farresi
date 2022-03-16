@@ -1,6 +1,6 @@
 ---
 title: "Forte di Altafiumara"
-date: 2022-02-27T12:30:01+06:00
+date: 2022-02-23T12:30:01+06:00
 image: images/blog/forte_altafiumara.jpg
 description: ""
 type: "post"
