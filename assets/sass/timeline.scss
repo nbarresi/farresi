@@ -286,6 +286,8 @@ h2 {
   .timeline__event {
     flex-direction: column;
     align-self: center;
+	width: 80%;
+	
     &__content {
       width: 100%;
     }

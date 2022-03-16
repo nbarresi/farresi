@@ -193,7 +193,8 @@ h2 {
 @media (max-width: 786px) {
   .timeline__event {
     flex-direction: column;
-    align-self: center; }
+    align-self: center;
+    width: 80%; }
     .timeline__event__content {
       width: 100%; }
     .timeline__event__icon__noanimation, .timeline__event__icon {
