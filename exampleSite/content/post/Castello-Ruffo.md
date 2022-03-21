@@ -13,7 +13,7 @@ summary: "Il Castello di Scilla si erge sul promontorio che divide le due spiagg
 Il Castello di Scilla si erge sul promontorio che divide le due spiagge di Marina Grande e di Chianalea. L'edificio presenta una pianta irregolare con parti databili a diverse epoche ma che nel complesso conservano tutt'oggi la configurazione abbastanza omogenea di una fortezza dotata di cortine, torrioni e feritoie.
 
 
-L'ingresso è preceduto dal ponte che conduce all'edificio il cui ambiente principale è caratterizzato dal portale di pietra costruito con arco a sesto acuto, sui cui campeggiano lo stemma nobiliare dei Ruffo e la lapide che celebra il restauro del castello eseguito nel XVI secolo.
+L'ingresso è preceduto dal ponte che conduce all'edificio, il cui ambiente principale è caratterizzato dal portale di pietra con arco a sesto acuto, sui cui campeggiano lo stemma nobiliare dei Ruffo e la lapide che celebra il restauro del castello eseguito nel XVI secolo.
 
 
 Superato l'androne a volta ribassata si apre un cortile, e da qui, percorrendo il grande scalone, si giunge all'ingresso della residenza. Questa è dotata di ampi saloni, essendo stata di proprietà di una delle più ricche e importanti casate del regno di Napoli.

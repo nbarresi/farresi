@@ -46,34 +46,39 @@ URL = "hero-area"
 weight = 1
 
 [[menu.main]]
-name = "Il piano"
+name = "Programma"
 URL = "timeline"
 weight = 2
 
 [[menu.main]]
+name = "Un po' di noi"
+URL = "slider"
+weight = 3
+
+[[menu.main]]
 name = "Lista nozze"
 URL = "lista-nozze"
-weight = 3
+weight = 4
 
 [[menu.main]]
 name = "Curiosità"
 URL = "curiosita"
-weight = 4
+weight = 5
 
 [[menu_OLD.main]]
 name = "Price"
 URL = "price"
-weight = 5
+weight = 6
 
 [[menu_OLD.main]]
 name = "News"
 URL = "subscribe"
-weight = 6
+weight = 7
 
 [[menu.main]]
 name = "Ci sarai?"
 URL = "contact-us"
-weight = 7
+weight = 8
 
 
 
