@@ -6,26 +6,26 @@ hero_area:
 
 ################### Gallery ###################
 gallery:
-  enable : false
+  enable : true
   title : "Un po' degli ultimi 11 anni..."
   images:
     - img: "images/slider/18 marzo 2018.jpg"
     - img: "images/slider/agosto 106_gibilterra.jpg"
-    - img: "images/slider/agosto 2014_budapest.jpg"
+    - img: "images/slider/maggio 2011_lione.jpg"
     - img: "images/slider/aprile 2015_venezia.jpg"
-    - img: "images/slider/color run.jpg"
+    - img: "images/slider/maggio 2011_lione2.jpg"
     - img: "images/slider/dicembre 2011.jpg"
     - img: "images/slider/febbraio 2012.jpg"
     - img: "images/slider/giugno 2018.jpg"
     - img: "images/slider/luglio 2018.jpg"
-    - img: "images/slider/maggio 2011_lione.jpg"
-    - img: "images/slider/maggio 2011_lione2.jpg"
     - img: "images/slider/marzo 2011_londra2.jpg"
     - img: "images/slider/marzo 2016_firenze.jpg"
     - img: "images/slider/novembre 2013_ io non sono bellissima ma la foto lo è.jpg"
     - img: "images/slider/ottobre 2012_barcellona.jpg"
     - img: "images/slider/questa è un capolavoro.jpg"
-    - img: "images/slider/settembre 2012.jpg"
+    - img: "images/slider/agosto 2014_budapest.jpg"
+    - img: "images/slider/color run.jpg"
+    #- img: "images/slider/settembre 2012.jpg"
   
 
 

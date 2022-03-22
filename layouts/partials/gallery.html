@@ -1,3 +1,7 @@
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+
+
+
 {{ if site.Data.homepage.gallery.enable }}
 {{ with site.Data.homepage.gallery }}
 <section id="slider">
@@ -5,16 +9,40 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-					<div class="title">
-						<h3>{{ .title | markdownify }}</h3>
+					
+					<h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">{{ .title | markdownify }}
+					</h1>
+					
+					<div class="gallerynew wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+						{{ $.Scratch.Set "counter" 0}}
+						{{ range .images }}
+							{{ $counter := $.Scratch.Get "counter" }}
+							{{ if eq $counter 0 }}
+								<div class="gallerynew__column">
+							{{ end }}
+									<a href="{{ .img | absURL }}" class="venobox gallerynew__link">
+										<figure class="gallerynew__thumb">
+											<img src="{{ .img | absURL }}" class="gallerynew__image">
+											<figcaption class="gallerynew__caption"></figcaption>
+										</figure>
+									</a>
+									
+							{{ $.Scratch.Add "counter" 1}}
+							{{ $counter := $.Scratch.Get "counter" }}
+							{{ if eq $counter 4 }}
+								</div>
+								{{ $.Scratch.Set "counter" 0}}
+							{{ end }}
+							
+						{{ end }}
 					</div>
-					 <div class="gallery-slider">
+					 <!--<div class="gallery-slider">
 						{{ range .images }}
 						<a href="{{ .img | absURL }}" class="venobox" data-gall="sliderGallery"><img class="img-responsive"
 								src="{{ .img | absURL }}" alt=""></a>
 						{{ end }}
 					</div>
-					<!--
+					
 					<div class="gallery-slider">
 						{{ range .images }}
 						<a href="{{ .url }}" target="_blank"><img class="img-responsive"
@@ -25,6 +53,7 @@
 					<!--<a href="https://g.page/Altafiumara?share" target="_blank"><img class="img-responsive"
 								src="{{ . | absURL }}" alt=""></a>-->
 				</div>
+				
 			</div><!-- .col-md-12 close -->
 		</div><!-- .row close -->
 	</div><!-- .container close -->
