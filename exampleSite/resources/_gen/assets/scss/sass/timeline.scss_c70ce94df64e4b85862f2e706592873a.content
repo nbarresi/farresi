@@ -39,7 +39,7 @@ h2 {
   0% {
     transform: translateY(0%) scaleY(1); }
   100% {
-    transform: translateY(200%) scaleY(3.8); } }
+    transform: translateY(200%) scaleY(3); } }
       .timeline__event:nth-child(2n + 1) .timeline__event__icon:before {
         content: "";
         width: 2px;
