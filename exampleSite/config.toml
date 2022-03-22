@@ -50,10 +50,10 @@ name = "Programma"
 URL = "timeline"
 weight = 2
 
-[[menu.main]]
-name = "Un po' di noi"
-URL = "slider"
-weight = 3
+#[[menu.main]]
+#name = "Un po' di noi"
+#URL = "slider"
+#weight = 3
 
 [[menu.main]]
 name = "Lista nozze"
